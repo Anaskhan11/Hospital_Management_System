@@ -14,9 +14,9 @@ export const login = async (req, res, next) => {
     return next(new ErrorHandler("User with this email does not exists.", 401));
   }
 
-//   console.log(password);
+  //   console.log(password);
   const isPasswordMatched = await auth.comparePassword(password);
-//   console.log(isPasswordMatched);
+  //   console.log(isPasswordMatched);
   if (!isPasswordMatched) {
     return next(new ErrorHandler("invalid Email or Password ", 401));
   }

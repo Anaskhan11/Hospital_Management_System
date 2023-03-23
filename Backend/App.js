@@ -1,7 +1,10 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 const App = express();
+import cors from "cors";
 
+
+App.use(cors());
 App.use(cookieParser());
 App.use(express.json());
 

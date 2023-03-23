@@ -18,7 +18,7 @@ const Banner = () => {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            height={700}
+            // height={730}
             className="d-block w-100"
             src={sec}
             alt="First slide"
@@ -26,7 +26,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={700}
+            // height={730}
             className="d-block w-100 "
             src={one}
             alt="Second slide"
@@ -34,7 +34,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={700}
+            // height={730}
             className="d-block w-100 "
             src={third}
             alt="Third slide"
@@ -42,7 +42,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={700}
+            // height={730}
             className="d-block w-100 "
             src={four}
             alt="Third slide"
@@ -50,7 +50,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            height={700}
+            // height={730}
             className="d-block w-100 "
             src={five}
             alt="Third slide"
